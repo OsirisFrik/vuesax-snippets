@@ -1,0 +1,100 @@
+{
+  // Layout -> https://lusaxweb.github.io/vuesax/layout/
+  "row": {
+    "prefix": ["vs-row", "vsRow", "vsrow"],
+    "body": "<vs-row>$1</vs-row>"
+  },
+  "col": {
+    "prefix": ["vs-col", "vsCol", "vscol"],
+    "body": "<vs-col></vs-col>"
+  },
+  // Components
+  "icon": {
+    "prefix": ["vs-icon", "vsIcon", "vsicon"],
+    "body": "<vs-icon icon=\"$1\" />"
+  },
+  "alert": {
+    "prefix": ["vs-alert", "vsAlert", "vsalert"],
+    "body": "<vs-alert :active=\"$1\">$2</vs-alert>"
+  },
+  "avatar": {
+    "prefix": ["vs-avatar", "vsAvatar", "vsavatar"],
+    "body": "<vs-avatar text=\"$1\" ${2:src=\"$3\"} />"
+  },
+  "breadcrumb": {
+    "prefix": ["vs-breadcrumb", "vsBreadcrumb", "vsbreadcrumb"],
+    "body": "<vs-breadcrumb :items=\"$1\"></vs-breadcrumb>"
+  },
+  "button": {
+    "prefix": ["vs-button", "vsButton", "vsbutton"],
+    "body": "<vs-button color=\"$1\" type=\"$2\">$3</vs-button>"
+  },
+  "card": {
+    "prefix": ["vs-card", "vsCard", "vscard"],
+    "body": [
+      "<vs-card>",
+      "\t<div slot=\"header\">$1</div>",
+      "\t<div>$2</div>",
+      "\t<div slot=\"footer\">$3</div>",
+      "</vs-card>"
+    ]
+  },
+  "checkbox": {
+    "prefix": ["vs-checkbox", "vsCheckbox", "vscheckbox"],
+    "body": "<vs-checkbox v-model=\"$1\">$2</vs-checkbox>"
+  },
+  "chip": {
+    "prefix": ["vs-chip", "vsChip", "vschip"],
+    "body": "<vs-chip ${1:closable}>$2</vs-chip>"
+  },
+  "collapse": {
+    "prefix": ["vs-collapse", "vsCollapse", "vscollapse"],
+    "body": [
+      "<vs-collapse>",
+      "\t<vs-collapse-item>",
+      "\t\t<div slot=\"header\">$1</div>",
+      "\t\t$2",
+      "\t</vs-collapse-item>",
+      "</vs-collapse>"
+    ]
+  },
+  "collapse-item": {
+    "prefix": ["vs-collapse-item", "vsCollapseItem", "vscollapseitem"],
+    "body": [
+      "<vs-collapse-item>",
+      "\t<div slot=\"header\">$1</div>",
+      "</vs-collapse-item>"
+    ]
+  },
+  "divider": {
+    "prefix": ["vs-divider", "vsDivider", "vsdivider"],
+    "body": "<vs-divider />"
+  },
+  "dropdown": {
+    "prefix": ["vs-dropdown", "vsDropdown", "vsdropdown"],
+    "body": [
+      "<vs-dropdown>",
+      "\t<a href.prevent>$1</a>",
+      "\t<vs-dropdown-menu>",
+      "\t\t<vs-dropdown-item>$2</vs-dropdown-item>",
+      "\t</vs-dropdown-menu>",
+      "</vs-dropdown>"
+    ]
+  },
+  "dropdown-item": {
+    "prefix": ["vs-dropdown-item", "vsDropdownItem", "vsdropdownitem"],
+    "body": "<vs-dropdown-item>$1</vs-dropdown-item>"
+  },
+  "images": {
+    "prefix": ["vs-images", "vsImages", "vsimages"],
+    "body": [
+      "<vs-images>",
+      "\t<vs-image src=\"$1\" />",
+      "</vs-images>"
+    ]
+  },
+  "image": {
+    "prefix": ["vs-image", "vsImage", "vsimage"],
+    "body": "<vs-image src=\"$1\" />"
+  }
+}
