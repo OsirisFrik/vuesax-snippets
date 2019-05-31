@@ -3,6 +3,20 @@
     "displayName": "vuesax snippets",
     "description": "vuesax components snippets",
     "version": "0.0.1",
+    "publisher": "OsirisFrik",
+    "author": {
+        "name": "OsirisFrik",
+        "email": "osiris@frikdev.com",
+        "url": "https://github.com/OsirisFrik"
+    },
+    "repository": {
+        "url": "https://github.com/OsirisFrik/vuesax-snippets"
+    },
+    "icon": "images/vuesax-logo-beta.png",
+    "galleryBanner": {
+        "color": "#5b3cc4",
+        "theme": "light"
+    },
     "engines": {
         "vscode": "^1.34.0"
     },
